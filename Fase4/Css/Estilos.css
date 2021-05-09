@@ -1,0 +1,63 @@
+html{
+    background-color: #58E6DF;
+}
+header
+{
+    background-color: #58E6DF;
+    text-align: center;
+}
+
+nav.navbar {
+    background-color: #D0B6FA;
+}
+
+div
+{
+    color: black;
+}
+section
+{
+    float: left;
+    padding: 0.8em 0.7em;
+    background-color: #FFDCEA;
+}
+aside
+    {
+        float: left;
+        padding: 0.7em 0.6em;
+        background-color: #DCF7FF;
+    }
+footer
+    {
+        background-color: #c2ebff;
+    }
+.Contenedor::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+/*Menu Desplegable*/
+.menu li{
+    display: inline-block;
+}
+li a, boton{
+    display: inline-block;
+    color: black;
+    text-align: center;
+    text-decoration: none;
+    padding: 0.8em 0.7em;
+}
+.ListaDesplegable{
+    display: none;
+    position: absolute;
+}
+.ListaDesplegable a{
+    display: block;
+    text-align: left;
+}
+.boton:hover .ListaDesplegable{
+    display: block;
+}
+li a:hover{
+    background-color:#7fffd4;
+    }
